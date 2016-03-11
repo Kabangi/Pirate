@@ -7,6 +7,7 @@
 //
 
 #import "SignupViewController.h"
+#import "ValidationViewController.h"
 
 @interface SignupViewController ()
 
@@ -31,7 +32,7 @@
     CGSize screenSize = [UIScreen mainScreen].bounds.size;
     
     float fontSize = 72 * screenSize.height / 1920.0f;
-    UIFont *titleFont = [UIFont systemFontOfSize:fontSize weight:0.5f];
+    UIFont *titleFont = [UIFont systemFontOfSize:fontSize weight:0.3f];
     [self.lblNavTitle setFont:titleFont];
     
     UIColor *blueColor = [UIColor colorWithRed:8/255.0f green:149/255.0f blue:218/255.0f alpha:1.0f];
@@ -63,14 +64,20 @@
 
 - (IBAction)onBack:(id)sender
 {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 
-- (IBAction)onSignup:(id)sender {
+- (IBAction)onSignup:(id)sender
+{
+    ValidationViewController *validationVC = [self.storyboard instantiateViewControllerWithIdentifier:@"ValidationVC"];
+    [self.navigationController pushViewController:validationVC animated:YES];
+    
 }
 
-- (IBAction)onSignupWithLinkedin:(id)sender {
+- (IBAction)onSignupWithLinkedin:(id)sender
+{
+    
 }
 
 - (IBAction)onPirate:(id)sender {

@@ -13,7 +13,6 @@
 		8A17925A1C91EBB500F17505 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1792591C91EBB500F17505 /* LoginViewController.m */; };
 		8A17925D1C91EC1F00F17505 /* back_white_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A17925B1C91EC1F00F17505 /* back_white_icon.png */; };
 		8A17925E1C91EC1F00F17505 /* login_successful.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A17925C1C91EC1F00F17505 /* login_successful.png */; };
-		8A1792621C92088E00F17505 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1792611C92088E00F17505 /* SignupViewController.m */; };
 		8A2E9D3C1C91735C001AA7C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2E9D3B1C91735C001AA7C5 /* main.m */; };
 		8A2E9D3F1C91735C001AA7C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2E9D3E1C91735C001AA7C5 /* AppDelegate.m */; };
 		8A2E9D451C91735C001AA7C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2E9D431C91735C001AA7C5 /* Main.storyboard */; };
@@ -22,6 +21,9 @@
 		8A2E9D4D1C91735C001AA7C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2E9D4B1C91735C001AA7C5 /* LaunchScreen.storyboard */; };
 		8A2E9D581C91735D001AA7C5 /* PirateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2E9D571C91735D001AA7C5 /* PirateTests.m */; };
 		8A2E9D631C91735D001AA7C5 /* PirateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2E9D621C91735D001AA7C5 /* PirateUITests.m */; };
+		8A9F04FB1C93516F008B62D6 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9F04FA1C93516F008B62D6 /* SignupViewController.m */; };
+		8A9F04FE1C93519A008B62D6 /* ValidationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9F04FD1C93519A008B62D6 /* ValidationViewController.m */; };
+		8ACA345E1C9363220008A620 /* profile_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ACA345D1C9363220008A620 /* profile_photo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +52,6 @@
 		8A1792591C91EBB500F17505 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ViewControllers/LoginVC/LoginViewController.m; sourceTree = "<group>"; };
 		8A17925B1C91EC1F00F17505 /* back_white_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back_white_icon.png; path = images/back_white_icon.png; sourceTree = "<group>"; };
 		8A17925C1C91EC1F00F17505 /* login_successful.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_successful.png; path = images/login_successful.png; sourceTree = "<group>"; };
-		8A1792601C92088E00F17505 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignupViewController.h; path = ViewControllers/LoginVC/SignupViewController.h; sourceTree = "<group>"; };
-		8A1792611C92088E00F17505 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignupViewController.m; path = ViewControllers/LoginVC/SignupViewController.m; sourceTree = "<group>"; };
 		8A2E9D371C91735C001AA7C5 /* Pirate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pirate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2E9D3B1C91735C001AA7C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A2E9D3D1C91735C001AA7C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +67,11 @@
 		8A2E9D5E1C91735D001AA7C5 /* PirateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PirateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2E9D621C91735D001AA7C5 /* PirateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PirateUITests.m; sourceTree = "<group>"; };
 		8A2E9D641C91735D001AA7C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A9F04F91C93516F008B62D6 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignupViewController.h; path = ViewControllers/SignupVC/SignupViewController.h; sourceTree = "<group>"; };
+		8A9F04FA1C93516F008B62D6 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignupViewController.m; path = ViewControllers/SignupVC/SignupViewController.m; sourceTree = "<group>"; };
+		8A9F04FC1C93519A008B62D6 /* ValidationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ValidationViewController.h; path = ViewControllers/SignupVC/ValidationViewController.h; sourceTree = "<group>"; };
+		8A9F04FD1C93519A008B62D6 /* ValidationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ValidationViewController.m; path = ViewControllers/SignupVC/ValidationViewController.m; sourceTree = "<group>"; };
+		8ACA345D1C9363220008A620 /* profile_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile_photo.png; path = images/profile_photo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +102,7 @@
 		8A17924A1C91C9F700F17505 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				8ACA345D1C9363220008A620 /* profile_photo.png */,
 				8A17925B1C91EC1F00F17505 /* back_white_icon.png */,
 				8A17925C1C91EC1F00F17505 /* login_successful.png */,
 				8A1792521C91D61200F17505 /* pi_icon.png */,
@@ -108,6 +114,7 @@
 		8A17924D1C91CF4600F17505 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8A9F04F81C93515F008B62D6 /* SignupVC */,
 				8A1792571C91EB9700F17505 /* LoginVC */,
 				8A17924E1C91CF5700F17505 /* IntroVC */,
 			);
@@ -128,8 +135,6 @@
 			children = (
 				8A1792581C91EBB500F17505 /* LoginViewController.h */,
 				8A1792591C91EBB500F17505 /* LoginViewController.m */,
-				8A1792601C92088E00F17505 /* SignupViewController.h */,
-				8A1792611C92088E00F17505 /* SignupViewController.m */,
 			);
 			name = LoginVC;
 			sourceTree = "<group>";
@@ -195,6 +200,17 @@
 				8A2E9D641C91735D001AA7C5 /* Info.plist */,
 			);
 			path = PirateUITests;
+			sourceTree = "<group>";
+		};
+		8A9F04F81C93515F008B62D6 /* SignupVC */ = {
+			isa = PBXGroup;
+			children = (
+				8A9F04F91C93516F008B62D6 /* SignupViewController.h */,
+				8A9F04FA1C93516F008B62D6 /* SignupViewController.m */,
+				8A9F04FC1C93519A008B62D6 /* ValidationViewController.h */,
+				8A9F04FD1C93519A008B62D6 /* ValidationViewController.m */,
+			);
+			name = SignupVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +322,7 @@
 				8A2E9D4A1C91735C001AA7C5 /* Assets.xcassets in Resources */,
 				8A17925D1C91EC1F00F17505 /* back_white_icon.png in Resources */,
 				8A1792531C91D61200F17505 /* pi_icon.png in Resources */,
+				8ACA345E1C9363220008A620 /* profile_photo.png in Resources */,
 				8A2E9D451C91735C001AA7C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,9 +348,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A1792621C92088E00F17505 /* SignupViewController.m in Sources */,
+				8A9F04FB1C93516F008B62D6 /* SignupViewController.m in Sources */,
 				8A2E9D481C91735C001AA7C5 /* Pirate.xcdatamodeld in Sources */,
 				8A2E9D3F1C91735C001AA7C5 /* AppDelegate.m in Sources */,
+				8A9F04FE1C93519A008B62D6 /* ValidationViewController.m in Sources */,
 				8A2E9D3C1C91735C001AA7C5 /* main.m in Sources */,
 				8A1792561C91EB8D00F17505 /* IntroViewController.m in Sources */,
 				8A17925A1C91EBB500F17505 /* LoginViewController.m in Sources */,

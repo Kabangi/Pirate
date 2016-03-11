@@ -32,7 +32,7 @@
     CGSize screenSize = [UIScreen mainScreen].bounds.size;
     
     float fontSize = 72 * screenSize.height / 1920.0f;
-    UIFont *titleFont = [UIFont systemFontOfSize:fontSize weight:0.5f];
+    UIFont *titleFont = [UIFont systemFontOfSize:fontSize weight:0.3f];
     [self.lblLoginTitle setFont:titleFont];
     
     UIColor *blueColor = [UIColor colorWithRed:8/255.0f green:149/255.0f blue:218/255.0f alpha:1.0f];
