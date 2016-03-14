@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A012A401C93C07E000D9A4F /* choose_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A012A3E1C93C07E000D9A4F /* choose_icon.png */; };
+		8A012A411C93C07E000D9A4F /* upload_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A012A3F1C93C07E000D9A4F /* upload_icon.png */; };
 		8A17924C1C91CA0600F17505 /* Intro.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A17924B1C91CA0600F17505 /* Intro.png */; };
 		8A1792531C91D61200F17505 /* pi_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A1792521C91D61200F17505 /* pi_icon.png */; };
 		8A1792561C91EB8D00F17505 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1792551C91EB8D00F17505 /* IntroViewController.m */; };
 		8A17925A1C91EBB500F17505 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1792591C91EBB500F17505 /* LoginViewController.m */; };
 		8A17925D1C91EC1F00F17505 /* back_white_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A17925B1C91EC1F00F17505 /* back_white_icon.png */; };
 		8A17925E1C91EC1F00F17505 /* login_successful.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A17925C1C91EC1F00F17505 /* login_successful.png */; };
+		8A191B3A1C94012400CC80AB /* pi_white_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A191B391C94012400CC80AB /* pi_white_icon.png */; };
+		8A191B3D1C94045C00CC80AB /* CongratulationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A191B3C1C94045C00CC80AB /* CongratulationViewController.m */; };
 		8A2E9D3C1C91735C001AA7C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2E9D3B1C91735C001AA7C5 /* main.m */; };
 		8A2E9D3F1C91735C001AA7C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2E9D3E1C91735C001AA7C5 /* AppDelegate.m */; };
 		8A2E9D451C91735C001AA7C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2E9D431C91735C001AA7C5 /* Main.storyboard */; };
@@ -24,6 +28,12 @@
 		8A9F04FB1C93516F008B62D6 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9F04FA1C93516F008B62D6 /* SignupViewController.m */; };
 		8A9F04FE1C93519A008B62D6 /* ValidationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9F04FD1C93519A008B62D6 /* ValidationViewController.m */; };
 		8ACA345E1C9363220008A620 /* profile_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ACA345D1C9363220008A620 /* profile_photo.png */; };
+		8AD7F1CA1C95100300E7CC96 /* LoginPremiumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD7F1C91C95100300E7CC96 /* LoginPremiumViewController.m */; };
+		8AD7F1CD1C95135A00E7CC96 /* fingerscan_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AD7F1CB1C95135A00E7CC96 /* fingerscan_icon.png */; };
+		8AD7F1CE1C95135A00E7CC96 /* voicerecord_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AD7F1CC1C95135A00E7CC96 /* voicerecord_icon.png */; };
+		8ADF07D61C9744AF00EB5937 /* SignupPremiumFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF07D51C9744AF00EB5937 /* SignupPremiumFirstVC.m */; };
+		8ADF07D91C97572E00EB5937 /* SignupPremiumSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF07D81C97572E00EB5937 /* SignupPremiumSecondVC.m */; };
+		8ADF07DB1C975D0D00EB5937 /* calender_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADF07DA1C975D0D00EB5937 /* calender_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A012A3E1C93C07E000D9A4F /* choose_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = choose_icon.png; path = images/choose_icon.png; sourceTree = "<group>"; };
+		8A012A3F1C93C07E000D9A4F /* upload_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = upload_icon.png; path = images/upload_icon.png; sourceTree = "<group>"; };
 		8A17924B1C91CA0600F17505 /* Intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Intro.png; path = images/Intro.png; sourceTree = "<group>"; };
 		8A1792521C91D61200F17505 /* pi_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pi_icon.png; path = images/pi_icon.png; sourceTree = "<group>"; };
 		8A1792541C91EB8D00F17505 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroViewController.h; path = ViewControllers/IntroVC/IntroViewController.h; sourceTree = "<group>"; };
@@ -52,6 +64,9 @@
 		8A1792591C91EBB500F17505 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ViewControllers/LoginVC/LoginViewController.m; sourceTree = "<group>"; };
 		8A17925B1C91EC1F00F17505 /* back_white_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back_white_icon.png; path = images/back_white_icon.png; sourceTree = "<group>"; };
 		8A17925C1C91EC1F00F17505 /* login_successful.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_successful.png; path = images/login_successful.png; sourceTree = "<group>"; };
+		8A191B391C94012400CC80AB /* pi_white_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pi_white_icon.png; path = images/pi_white_icon.png; sourceTree = "<group>"; };
+		8A191B3B1C94045C00CC80AB /* CongratulationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CongratulationViewController.h; path = ViewControllers/SignupVC/CongratulationViewController.h; sourceTree = "<group>"; };
+		8A191B3C1C94045C00CC80AB /* CongratulationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CongratulationViewController.m; path = ViewControllers/SignupVC/CongratulationViewController.m; sourceTree = "<group>"; };
 		8A2E9D371C91735C001AA7C5 /* Pirate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pirate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2E9D3B1C91735C001AA7C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A2E9D3D1C91735C001AA7C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +87,15 @@
 		8A9F04FC1C93519A008B62D6 /* ValidationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ValidationViewController.h; path = ViewControllers/SignupVC/ValidationViewController.h; sourceTree = "<group>"; };
 		8A9F04FD1C93519A008B62D6 /* ValidationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ValidationViewController.m; path = ViewControllers/SignupVC/ValidationViewController.m; sourceTree = "<group>"; };
 		8ACA345D1C9363220008A620 /* profile_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile_photo.png; path = images/profile_photo.png; sourceTree = "<group>"; };
+		8AD7F1C81C95100300E7CC96 /* LoginPremiumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginPremiumViewController.h; path = ViewControllers/LoginVC/LoginPremiumViewController.h; sourceTree = "<group>"; };
+		8AD7F1C91C95100300E7CC96 /* LoginPremiumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginPremiumViewController.m; path = ViewControllers/LoginVC/LoginPremiumViewController.m; sourceTree = "<group>"; };
+		8AD7F1CB1C95135A00E7CC96 /* fingerscan_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fingerscan_icon.png; path = images/fingerscan_icon.png; sourceTree = "<group>"; };
+		8AD7F1CC1C95135A00E7CC96 /* voicerecord_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = voicerecord_icon.png; path = images/voicerecord_icon.png; sourceTree = "<group>"; };
+		8ADF07D41C9744AF00EB5937 /* SignupPremiumFirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignupPremiumFirstVC.h; path = ViewControllers/SignupVC/SignupPremiumFirstVC.h; sourceTree = "<group>"; };
+		8ADF07D51C9744AF00EB5937 /* SignupPremiumFirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignupPremiumFirstVC.m; path = ViewControllers/SignupVC/SignupPremiumFirstVC.m; sourceTree = "<group>"; };
+		8ADF07D71C97572E00EB5937 /* SignupPremiumSecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignupPremiumSecondVC.h; path = ViewControllers/SignupVC/SignupPremiumSecondVC.h; sourceTree = "<group>"; };
+		8ADF07D81C97572E00EB5937 /* SignupPremiumSecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignupPremiumSecondVC.m; path = ViewControllers/SignupVC/SignupPremiumSecondVC.m; sourceTree = "<group>"; };
+		8ADF07DA1C975D0D00EB5937 /* calender_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calender_icon.png; path = images/calender_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +126,12 @@
 		8A17924A1C91C9F700F17505 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				8ADF07DA1C975D0D00EB5937 /* calender_icon.png */,
+				8AD7F1CB1C95135A00E7CC96 /* fingerscan_icon.png */,
+				8AD7F1CC1C95135A00E7CC96 /* voicerecord_icon.png */,
+				8A191B391C94012400CC80AB /* pi_white_icon.png */,
+				8A012A3E1C93C07E000D9A4F /* choose_icon.png */,
+				8A012A3F1C93C07E000D9A4F /* upload_icon.png */,
 				8ACA345D1C9363220008A620 /* profile_photo.png */,
 				8A17925B1C91EC1F00F17505 /* back_white_icon.png */,
 				8A17925C1C91EC1F00F17505 /* login_successful.png */,
@@ -135,6 +165,8 @@
 			children = (
 				8A1792581C91EBB500F17505 /* LoginViewController.h */,
 				8A1792591C91EBB500F17505 /* LoginViewController.m */,
+				8AD7F1C81C95100300E7CC96 /* LoginPremiumViewController.h */,
+				8AD7F1C91C95100300E7CC96 /* LoginPremiumViewController.m */,
 			);
 			name = LoginVC;
 			sourceTree = "<group>";
@@ -209,6 +241,12 @@
 				8A9F04FA1C93516F008B62D6 /* SignupViewController.m */,
 				8A9F04FC1C93519A008B62D6 /* ValidationViewController.h */,
 				8A9F04FD1C93519A008B62D6 /* ValidationViewController.m */,
+				8A191B3B1C94045C00CC80AB /* CongratulationViewController.h */,
+				8A191B3C1C94045C00CC80AB /* CongratulationViewController.m */,
+				8ADF07D41C9744AF00EB5937 /* SignupPremiumFirstVC.h */,
+				8ADF07D51C9744AF00EB5937 /* SignupPremiumFirstVC.m */,
+				8ADF07D71C97572E00EB5937 /* SignupPremiumSecondVC.h */,
+				8ADF07D81C97572E00EB5937 /* SignupPremiumSecondVC.m */,
 			);
 			name = SignupVC;
 			sourceTree = "<group>";
@@ -316,13 +354,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A191B3A1C94012400CC80AB /* pi_white_icon.png in Resources */,
 				8A17924C1C91CA0600F17505 /* Intro.png in Resources */,
 				8A2E9D4D1C91735C001AA7C5 /* LaunchScreen.storyboard in Resources */,
 				8A17925E1C91EC1F00F17505 /* login_successful.png in Resources */,
 				8A2E9D4A1C91735C001AA7C5 /* Assets.xcassets in Resources */,
 				8A17925D1C91EC1F00F17505 /* back_white_icon.png in Resources */,
+				8A012A411C93C07E000D9A4F /* upload_icon.png in Resources */,
 				8A1792531C91D61200F17505 /* pi_icon.png in Resources */,
 				8ACA345E1C9363220008A620 /* profile_photo.png in Resources */,
+				8A012A401C93C07E000D9A4F /* choose_icon.png in Resources */,
+				8ADF07DB1C975D0D00EB5937 /* calender_icon.png in Resources */,
+				8AD7F1CD1C95135A00E7CC96 /* fingerscan_icon.png in Resources */,
+				8AD7F1CE1C95135A00E7CC96 /* voicerecord_icon.png in Resources */,
 				8A2E9D451C91735C001AA7C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,10 +392,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AD7F1CA1C95100300E7CC96 /* LoginPremiumViewController.m in Sources */,
 				8A9F04FB1C93516F008B62D6 /* SignupViewController.m in Sources */,
+				8ADF07D61C9744AF00EB5937 /* SignupPremiumFirstVC.m in Sources */,
 				8A2E9D481C91735C001AA7C5 /* Pirate.xcdatamodeld in Sources */,
+				8A191B3D1C94045C00CC80AB /* CongratulationViewController.m in Sources */,
 				8A2E9D3F1C91735C001AA7C5 /* AppDelegate.m in Sources */,
 				8A9F04FE1C93519A008B62D6 /* ValidationViewController.m in Sources */,
+				8ADF07D91C97572E00EB5937 /* SignupPremiumSecondVC.m in Sources */,
 				8A2E9D3C1C91735C001AA7C5 /* main.m in Sources */,
 				8A1792561C91EB8D00F17505 /* IntroViewController.m in Sources */,
 				8A17925A1C91EBB500F17505 /* LoginViewController.m in Sources */,

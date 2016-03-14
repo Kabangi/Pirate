@@ -57,18 +57,27 @@
 }
 
 
+
 #pragma mark - actions
 
-- (IBAction)onPhoto:(id)sender {
+- (IBAction)onPhoto:(id)sender
+{
+    
 }
 
-- (IBAction)onChoose:(id)sender {
+- (IBAction)onChoose:(id)sender
+{
+    
 }
 
-- (IBAction)onUpload:(id)sender {
+- (IBAction)onUpload:(id)sender
+{
+    
 }
 
-- (IBAction)onConfirm:(id)sender {
+- (IBAction)onConfirm:(id)sender
+{
+    
 }
 
 - (IBAction)onBack:(id)sender
